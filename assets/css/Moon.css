@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+main {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  background: #111;
+  color: #fff;
+  padding: 15px 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo-header {
+    height: 40px;
+    mix-blend-mode: screen;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+
+/* slider */
+.slider {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding:80px 60px 20px;
+}
+
+.slider h1 {
+  font-size: 40px;
+}
+
+.slider p {
+  margin: 10px 0 20px;
+}
+
+.buy-btn {
+  padding: 10px 20px;
+  border: none;
+  background: #fff;
+  color: #111;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* About */
+.about {
+  display: flex;
+  align-items: center;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 1345px;
+  height: 980px;
+  margin-top: 20px;
+  background: url(../img/Background\ moon.png) ;
+
+}
+
+.about .text {
+  position: relative;
+  width: 50%;
+  line-height: 2.4;
+  text-align: left;
+  color: white;
+  padding: 50px;
+  height: 400px;
+}
+
+.about .logo-img {
+  position: absolute;
+  top: 26%;
+  left: 100%;
+  max-width: 500px;
+  mix-blend-mode: screen;
+}
+
+.about .text p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.about .image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-placeholder {
+  background: #ddd;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tokenomics */
+.tokenomics {
+  padding: 50px;
+  text-align: center;
+}
+
+.tokenomics-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+#tokenomicsChart {
+      max-width: 400px;
+      max-height: 400px;
+}
+
+.tokenomics-content ul {
+  list-style-type: none;
+  line-height: 3;
+}
+
+.chart {
+  font-size: 50px;
+}
+
+/* Roadmap */
+.roadmap {
+  text-align: center;
+  padding: 40px 20px;
+  color: #fff;
+  line-height: 2;
+}
+
+.roadmap-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.roadmap-box {
+  flex: 1;
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s, background 0.3s;
+}
+
+.roadmap-box:hover {
+  transform: translateY(-5px);
+  background: #2a2a2a;
+}
+
+.roadmap-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #36A2EB; /* màu nhấn cho Q */
+}
+
+.roadmap-box p {
+  font-size: 16px;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.logo-img-ft{
+  display: block;
+  margin: -150px 110px;
+  height: 150px;
+  mix-blend-mode: screen;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: -82%;
+}
+
+footer .social a {
+  margin-right: 15px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  background: #f0f0f0; /* màu nền tròn */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.icon-circle:hover {
+  background: #ddd; /* đổi màu khi hover */
+  transform: scale(1.1);
+}
+
+small {
+  margin-bottom: auto;
+}

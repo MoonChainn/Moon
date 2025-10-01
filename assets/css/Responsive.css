@@ -1,0 +1,99 @@
+/* mobile & tablet */
+@media (max-width: 1023px) {
+
+  /* About */  
+.about .text {
+  line-height: 2.4;
+  text-align: center;
+  color: white;
+  padding: 50px;
+  width: 100%;
+  height: auto;
+}
+    
+.about .logo-img {
+    display: none;
+}
+
+    /* Roadmap */
+.roadmap {
+    text-align: center;
+    padding: 40px 70px;
+    color: #fff;
+    line-height: 2;
+}
+
+.roadmap-container {
+  display: block;
+  margin-top: 30px;
+} 
+
+.roadmap-box {
+  flex: 1;
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: transform 0.3s, background 0.3s;
+  margin-bottom: 20px;
+}
+}
+
+/*  tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+/* mobile  */
+@media (max-width: 739px) {
+
+.about {
+  display: flex;
+  align-items: center;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 1345px;
+  height: 980px;
+  margin-top: 20px;
+  background: url() ;
+
+}  
+
+.tokenomics-content ul {
+    display: none;
+}
+
+footer {
+    display: block;
+    background: #111;
+    color: #fff;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+}
+
+.logo-img-ft {
+    display: block;
+    margin: 0px;
+    height: 150px;
+     mix-blend-mode: screen;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 14%;
+
+}
+
+small {
+    display: block;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+}
+

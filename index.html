@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/Moon.css">
+  <link rel="stylesheet" href="assets/css/Responsive.css">
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/img/Logo MOON Token.png">
+  <link rel="stylesheet" href="assets/img/logo.png">
+  <link rel="stylesheet" href="../img/Background\ moon.png">
+">
+  
+
+  <title>Moon</title>
+</head>
+<body>
+  <main>
+    <!-- Header -->
+    <header>
+      
+      <div class="logo"><img class="logo-header" src="assets/img/logo.png" alt="">MOON </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Tokenomics</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+
+    
+    <!-- Slider -->
+    <slider>
+     <section class="slider">
+         <div class="slider-content">
+             <h1>MOON</h1>
+             <p>Cùng bay tới mặt trăng 🚀</p>
+             <button class="buy-btn">Buy Now</button>
+         </div>
+     </section>
+    </slider>
+
+    <!-- Content -->
+    <content>
+    <section class="content">
+      <!-- About -->
+      <div class="about">
+        <div class="text">
+          <h2>About Moon DeFi</h2>
+          <p>
+            Moon DeFi is built with the mission of providing a simple, transparent, and accessible token.
+            In a market crowded with overhyped projects, we take a straightforward approach: focus on DEX listing, build a strong community, and maintain transparency from day one.
+
+            Key Highlights of Moon DeFi:
+          </p>
+          <p>
+            🚀 Easy Access: Anyone can easily buy and trade on DEX.
+          </p>
+          <p>
+              🔒 Security & Transparency: Liquidity will be locked for 6 months starting from the DEX listing, minimizing risks for the community.
+          </p>
+          <p>
+            🌐 Community-Driven: Powered by the strength of loyal holders, not exaggerated hype.
+          </p>
+          <p>
+            🌱 Future-Ready: Serving as a foundation to expand into staking, farming, and other DeFi applications.
+          </p>
+          <p> 
+            We believe that simplicity and transparency are the keys to building a sustainable project that attracts serious, long-term investors.
+          </p>
+
+        <div class="logo">
+          <img class="logo-img" src="assets/img/Logo MOON Token.png" alt="Moon Token Logo">
+        </div>
+
+        </div>
+      </div>
+
+      <!-- Tokenomics -->
+      <div class="tokenomics">
+        <h2>Tokenomics</h2>
+
+        <div class="tokenomics-content">
+          
+            <!-- Chỗ này là biểu đồ -->
+  <canvas id="tokenomicsChart"></canvas>
+
+  <!-- Link thư viện Chart.js (phải để trước đoạn script) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    const ctx = document.getElementById('tokenomicsChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'pie',
+      data: {
+        labels: ['Team 15%', 'Liquidity 40%', 'Reserve 15%', 'Staking 10%', 'Airdrop 20%'],
+        datasets: [{
+          data: [15, 40, 15, 10, 20],
+          backgroundColor: ['#ff6384','#36a2eb','#ffce56','#4bc0c0','#9966ff'],
+        }]
+      },
+      options: {
+        plugins: {
+          legend: {
+            labels: { color: '#fff' } // chữ trắng cho hợp nền tối
+          }
+        }
+      }
+    });
+  </script>
+
+          <ul>
+            <li><b>Total Supply:</b> 1,000,000,000</li>
+            <li><b>Contract:</b> 0x123</li>
+            <li>Team 15%</li>
+            <li>Liquidity 40%</li>
+            <li>Reserve 15%</li>
+            <li>Staking 10%</li>
+            <li>Airdrop 20%</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Roadmap -->
+    <section class="roadmap">
+      <h2>Roadmap</h2>
+    <div class="roadmap-container">
+    
+    <div class="roadmap-box">
+      <h3>Phase 1</h3>
+      <h3>01/10/2025 - 01/12/2025</h3>
+      <h4>Platform Development</h4>
+      <p>Complete mainnet (basic version)
+
+        Test & optimize smart contracts
+
+        Prepare fundraising materials (whitepaper, pitch deck)
+
+        Build core community (Telegram, Twitter, Discord)
+      </p>
+    </div>
+    
+    <div class="roadmap-box">
+      <h3>Phase 2</h3>
+      <h3>01/11/2025 </h3>
+      <h4>Fundraising & Airdrop</h4>
+      <p>
+        Launch community/private sale rounds
+
+        Organize airdrop campaigns to attract new users
+
+        Expand marketing (KOLs, AMAs, social campaigns)
+
+        Grow community to 10,000+ members
+      </p>
+    </div>
+    
+    <div class="roadmap-box">
+      <h3>Phase 3</h3>
+      <h3>Comming soon</h3>
+      <h4>DEX Listing & Ecosystem Expansion</h4>
+      <p>
+        List token on DEX (Uniswap / PancakeSwap)
+
+        Establish initial liquidity pool
+
+        Launch staking/farming features (if applicable)
+      </p>
+    </div>
+    
+    <div class="roadmap-box">
+      <h3>Comming soon</h3>
+      <h3>?/?</h3>
+      <h4>Comming soon</h4>
+    </div>
+    
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="logo-footer">
+        <a href="#">
+          <img class="logo-img-ft" src="assets/img/Logo MOON Token.png" alt="logo">
+          
+        </a>
+      </div>
+      <div class="social">
+        <a href="https://twitter.com/yourproject" target="_blank" class="icon-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1227" width="20" height="20" fill="black">
+            <path d="M714 546L1160 0H1039L678 441 430 0H0l466 793-466 434h121l343-388 262 388h430L714 546z"/>
+          </svg>
+        </a>
+
+    <!-- Nút icon Telegram -->
+        <a href="https://t.me/yourproject" target="_blank" class="icon-circle">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 240 240" fill="black">
+            <path d="M120 0C53.7 0 0 53.7 0 120s53.7 120 120 120 120-53.7 120-120S186.3 0 120 0zm57.6 87.6l-19 89.8c-1.4 6.3-5.2 7.9-10.6 4.9l-29.3-21.6-14.1 13.6c-1.6 1.6-3 3-6.2 3l2.2-31.2 56.8-51.4c2.5-2.2-0.5-3.4-3.9-1.2l-70.3 44.3-30.3-9.4c-6.6-2.1-6.7-6.6 1.4-9.8l118.3-45.5c5.5-2 10.3 1.3 8.5 9.7z"/>
+          </svg>
+        </a>
+      </div>
+      <small>© 2025 Moon. All rights reserved.</small>
+    </footer>
+  </main>
+</body>
+</html>
